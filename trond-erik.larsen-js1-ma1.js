@@ -108,3 +108,32 @@ catCall();
 */
 
 //10
+
+/*
+const cats = [
+    {
+        name: "Blob",
+        age: 10
+    },
+    {
+        name: "Harold",
+    },
+    {
+        name: "Blurt",
+        age: 21
+    }
+];
+
+function catCall(catArray) {
+    for (let i = 0; i < cats.length; i++) {
+        resultsContainer.innerHTML += `<div>
+                                            <h5>${cats[i].name}</h5>
+                                            <p>${cats[i].age}</p>
+                                        </div>`;
+    }
+}
+
+catCall();
+*/
+
+// Couldn't figure out the "Age Unknown" part
