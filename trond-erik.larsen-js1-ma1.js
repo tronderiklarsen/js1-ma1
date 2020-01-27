@@ -31,7 +31,6 @@ const cat = {
 
 //7
 
-
 /*
 const cats = [
     {
@@ -47,14 +46,14 @@ const cats = [
     }
 ];
 
-function catArray(){
+function catCall(catArray) {
     for (let i = 0; i < cats.length; i++) {
         console.log(cats[i].name);
     }
 }
 
-catArray();
-*/
+catCall();
+/*
 
 //8
 
@@ -73,13 +72,13 @@ const cats = [
     }
 ];
 
-function catArray(arg){
+function catCall(catArray) {
     for (let i = 0; i < cats.length; i++) {
         console.log(`<h5>${cats[i].name}</h5>`);
     }
 }
 
-catArray();
+catCall();
 */
 
 //9
@@ -99,16 +98,13 @@ const cats = [
     }
 ];
 
-function catArray(arg) {
+function catCall(catArray) {
     for (let i = 0; i < cats.length; i++) {
-        resultsContainer.innerHTML = `<h5>${cats[i].name}</h5>`;
+        resultsContainer.innerHTML += `<h5>${cats[i].name}</h5>`;
     }
 }
 
-catArray();
+catCall();
 */
 
 //10
-
-
-
